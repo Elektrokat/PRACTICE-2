@@ -125,7 +125,7 @@ a:hover{
     }
 }
 
-@media screen and (max-width: 1200px) and (min-width: 805px) {
+@media screen and (max-width: 1200px) and (min-width: 801px) {
     body{
         color:ghostwhite;
         margin: 20px, 10px, 10px, 20px;
