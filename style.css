@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 14px;
+    list-style-type: square;
+}
+
+body{
+    background-color: tan;
+    color:ghostwhite;
+    margin: 20px, 10px, 10px, 20px;
+    padding: 10px;
+    display: flex;
+    height: 100%;
+    gap: 20px;
+}
+
+h1{
+    font-size: 14px;
+}
+
+.martin a{
+    text-decoration: none;
+    color: olive;
+}
+
+.martin{
+    padding: 10px;
+    text-align: center;
+    background-color: maroon;
+    line-height: 1.5em;
+    width: 60%;
+    height: 720px;
+    border-radius: 20px;
+}
+
+.martin ul{
+    text-align: left;
+    margin-left: 20px;
+}
+
+.martin img{
+    width: 80%;
+    height: 200px;
+    border-radius: 40%;
+}
+
+figcaption{
+    font-style: italic;
+    font-size: 12px;
+}
+
+.ghandi a{
+    text-decoration: none;
+    color: orange;
+}
+
+.ghandi{
+    padding: 10px;
+    text-align: center;
+    background-color: olive;
+    line-height: 1.6em;
+    width: 60%;
+    height: 720px;
+    border-radius: 20px;
+}
+
+.ghandi ul{
+    text-align: left;
+    margin-left: 20px;
+}
+
+.ghandi img{
+    width: 80%;
+    height: 200px;
+    border-radius: 40%;
+}
+
+.nelson a{
+    text-decoration: none;
+    color: maroon;
+}
+
+.nelson{
+    padding: 10px;
+    text-align: center;
+    background-color: orange;
+    line-height: 1.5em;
+    width: 60%;
+    height: 720px;
+    border-radius: 20px;
+}
+
+.nelson ul{
+    text-align: left;
+    margin-left: 20px;
+}
+
+.nelson img{
+    width: 80%;
+    height: 200px;
+    border-radius: 40%;
+}
+
+a:hover{
+    color: rgb(30, 3, 54);
+}
+
+@media screen and (max-width: 800px) {
+    body{
+        color:ghostwhite;
+        padding: 10px;
+        display: block;
+        height: 100%;
+        margin-left: 25%;
+    }
+
+    .martin, .ghandi, .nelson{
+        padding: 10px;
+        width: 75%;
+        height: 800px;
+        line-height: 1.8em;
+    }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 805px) {
+    body{
+        color:ghostwhite;
+        margin: 20px, 10px, 10px, 20px;
+        padding: 15px;
+        display: flex;
+        height: 100%;
+        gap: 20px;
+    }
+
+    .martin, .ghandi, .nelson{
+        padding: 10px;
+        width: 75%;
+        height: 900px;
+        line-height: 1.7em;
+    }
+}
