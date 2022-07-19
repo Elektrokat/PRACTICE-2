@@ -112,7 +112,7 @@ a:hover{
     body{
         color:ghostwhite;
         padding: 10px;
-        display: block;
+        flex-direction: column;
         height: 100%;
     }
 
@@ -128,7 +128,7 @@ a:hover{
     body{
         color:ghostwhite;
         padding: 10px;
-        display: block;
+        flex-direction: column;
         height: 100%;
         margin-left: 20%;
     }
@@ -146,7 +146,6 @@ a:hover{
         color:ghostwhite;
         position: relative;
         top: 10%;
-        display: flex;
         height: 100%;
         gap: 20px;
     }
